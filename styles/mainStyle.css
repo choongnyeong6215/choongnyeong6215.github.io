@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: #27374d;
+  width: 100%;
+}
+
+.header ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.header ul li {
+  padding: 1rem;
+}
+
+.header ul li a {
+  color: white;
+  text-decoration: none;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.home_image {
+  background-image: url("https://cdn.pixabay.com/photo/2024/01/25/15/51/snow-8532116_1280.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 50rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home_image p {
+  line-height: 7rem;
+}
+
+.home_image p:first-child {
+  font-size: 5rem;
+  color: white;
+}
+
+.home_image p:last-child {
+  font-size: 1rem;
+  color: white;
+}
+
+#ABOUT {
+  margin-top: 3rem;
+  padding: 0 10rem;
+}
+
+.myInfo {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+.infoBox {
+  border: 1px solid #9db2bf;
+  border-radius: 0.5rem;
+  width: 15rem;
+}
+
+.info {
+  padding: 1rem;
+}
+
+.info h4 {
+  margin-bottom: 1rem;
+}
+
+.info p {
+  font-size: 0.8rem;
+}
+
+#SKILL {
+  margin-top: 3rem;
+  padding: 0 10rem;
+}
+
+.skillGroup {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 3rem;
+  margin-top: 1rem;
+}
+
+.skillSet {
+  border: 1px solid #9db2bf;
+  border-radius: 0.5rem;
+  width: 8rem;
+  height: 8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.skillSet img {
+  width: 5rem;
+  height: 5rem;
+}
+
+#PROJECT {
+  margin-top: 3rem;
+  padding: 0 10rem;
+}
+
+.projectGroup {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+  margin-top: 1rem;
+}
+
+.thumbnailBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.thumbnail {
+  width: 10rem;
+  height: 10rem;
+  object-fit: cover;
+}
+
+.projectDescription {
+  padding: 1rem;
+  border: 1px solid #9db2bf;
+  border-radius: 1rem;
+  width: 15rem;
+  height: 18rem;
+}
+
+.projectDescription ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.projectDescription ul li {
+  font-size: 0.75rem;
+  border: 1px solid pink;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+}
+
+.projectIntroduce {
+  margin-top: 1rem;
+}
+
+svg {
+  margin-top: 0.5rem;
+}
