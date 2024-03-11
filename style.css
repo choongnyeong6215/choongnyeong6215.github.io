@@ -1,0 +1,213 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: #f08a5d;
+}
+
+.header ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.header ul li {
+  padding: 1rem;
+}
+
+.header ul li a {
+  color: white;
+  text-decoration: none;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+#HOME {
+  width: 60%;
+  margin: 5rem auto;
+  text-align: left;
+}
+
+#HOME p {
+  font-size: 2rem;
+}
+
+.myName {
+  color: #f08a5d;
+}
+
+.myPage a {
+  text-decoration: none;
+  color: #395b64;
+  font-size: 0.75rem;
+}
+
+.profile {
+  background-image: url("./images/profile.jpeg");
+  width: 5rem;
+  height: 5rem;
+  border-radius: 2.5rem;
+  background-size: cover;
+  background-position: center;
+  float: left;
+  margin-right: 2rem;
+}
+
+.myInfo {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  /* width: 80%; */
+  margin: 1rem 0;
+}
+
+.infoBox {
+  border: 1px solid #9db2bf;
+  border-radius: 0.5rem;
+}
+
+.info {
+  padding: 1rem;
+}
+
+.info h4 {
+  margin-bottom: 1rem;
+}
+
+.info p {
+  font-size: 0.8rem;
+}
+
+#ABOUT {
+  width: 60%;
+  margin: 3rem auto;
+}
+
+.borderline {
+  border-top: 1px solid #9db2bf;
+}
+
+#SKILL {
+  width: 60%;
+  margin: 3rem auto;
+}
+
+.skillGroup {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem 5rem;
+  margin: 2rem 0;
+}
+
+.skillSet {
+  border: 1px solid #9db2bf;
+  border-radius: 0.5rem;
+  width: 10rem;
+  height: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.skillSet img {
+  width: 5rem;
+  height: 5rem;
+}
+
+#PROJECT {
+  width: 60%;
+  margin: 3rem auto;
+}
+
+.projectDescription {
+  margin: 2rem auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.projectThumbnail {
+  display: flex;
+  flex-direction: column;
+  width: 12rem;
+  border-right: 1px solid #9db2bf;
+}
+
+.thumbnail1 {
+  background-image: url("./images/coin.png");
+  background-position: center;
+  background-size: cover;
+  width: 10rem;
+  height: 10rem;
+  border-radius: 1rem;
+}
+
+.thumbnail2 {
+  background-image: url("./images/todo.png");
+  background-position: center;
+  background-size: cover;
+  width: 10rem;
+  height: 10rem;
+  border-radius: 1rem;
+}
+
+.thumbnail3 {
+  background-image: url("./images/instagram.png");
+  background-position: center;
+  background-size: cover;
+  width: 10rem;
+  height: 10rem;
+  border-radius: 1rem;
+}
+
+.projectName {
+  margin-top: 0.5rem;
+  font-weight: bold;
+}
+
+.projectDate {
+  font-size: 0.8rem;
+  color: #395b64;
+  margin: 0.5rem 0;
+}
+
+svg {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.projectIntroduce {
+  width: 80%;
+  margin-left: 2rem;
+}
+
+.introduceBox {
+  width: 100%;
+  background-color: #eaeaea;
+  border-radius: 1rem;
+  padding: 1.5rem 1rem;
+}
+
+.projectSkills {
+  margin-top: 1rem;
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.projectSkills li {
+  border-radius: 1rem;
+  border: 1px solid #f08a5d;
+  padding: 0.5rem 0.75rem;
+  margin-right: 0.5rem;
+}
+
+.features {
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
